@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./categories.styles.scss";
-import { Category } from "./model";
-import Directory from "./components/directory/directory.component";
+import { Category } from "@/model";
+import Directory from "@/components/directory/directory.component";
+import "./app.scss";
 
 function App() {
   const [count, setCount] = useState(0);

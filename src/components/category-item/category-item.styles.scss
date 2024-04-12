@@ -1,3 +1,6 @@
+// @import "../../variables.scss";
+@import "src/variables.scss";
+
 .category-container {
   min-width: 30%;
   height: 240px;
@@ -54,6 +57,7 @@
     position: absolute;
 
     h2 {
+      font-family: $primary-font-family;
       font-weight: bold;
       margin: 0 6px 0;
       font-size: 22px;
@@ -61,8 +65,10 @@
     }
 
     p {
+      font-family: $secondary-font-family;
       font-weight: lighter;
       font-size: 16px;
+      color: #000;
     }
   }
 }
